@@ -1,4 +1,4 @@
-name: Basic CI Practice
+name: Run simple test
 
 on:
   push:
@@ -16,4 +16,4 @@ jobs:
         run: echo "Continuous Integration workflow is running"
 
       - name: Run simple test
-        run: echo "Test completed successfully"
+        run: exit 1
